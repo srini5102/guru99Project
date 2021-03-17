@@ -153,7 +153,7 @@ public class Base {
 		
 //		TakesScreenshot screenshot = (TakesScreenshot) driver;
 //		File src = screenshot.getScreenshotAs(OutputType.FILE);
-//		FileUtils.copyFile(src, new File(""));
+//		FileUtils.copyFile(src, new File(""));///
 //		
 		String folder = System.getProperty("user.dir")+"\\target\\screenshots";
 		Screenshot scrnshot = new AShot().takeScreenshot(driver);
